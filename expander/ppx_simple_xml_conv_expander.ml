@@ -670,7 +670,7 @@ module Serializer = struct
                       ~requested
                       ~type_params)
                    [ Builder.evar ~loc symbol ])))
-      |> Builder.pexp_function ~loc
+      |> Builder.pexp_function_cases ~loc
     ;;
   end
 

@@ -2,5 +2,6 @@
  (name ppx_simple_xml_conv_lib)
  (public_name ppx_simple_xml_conv.lib)
  (libraries core simple_xml xmlm)
+ (flags (:standard -w -32))
  (preprocess
   (pps ppx_jane)))
